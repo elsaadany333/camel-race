@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title> Camel Race</title>
+	<link href="./css/style.css" rel="stylesheet">
+	<audio id="audio-background" src="./audio/desert.mp3"></audio>
+	<audio id="audio-winner" src="./audio/short-crowd-cheer.mp3"></audio>
+	<audio id="audio-lets-go-spoken" src="./audio/lets-go-spoken-vocal.wav"></audio>
+	<img id="image-background" src="./img/desert.jpeg" hidden />
+	<img id="image-endline" src="./img/endline.png" hidden />
+	<img id="image-sprite-startman" src="./img/man-start.png" hidden />
+	<img id="image-sprite-yellow-camel" src="./img/yellow_camel.png" hidden />
+	<img id="image-sprite-brown-camel" src="./img/brown_camel.png" hidden />
+	<img id="image-sprite-beige-camel" src="./img/beige_camel.png" hidden />
+	<img id="image-sprite-red-camel" src="./img/red_camel.png" hidden />
+</head>
+
+<body>
+<div class="main">
+	<div class="top-menu">
+		<h1 class="title">Camel Race</h1>
+		<button class='button' id="btn-play"> Start </button>
+		<button class='button' id="btn-pause"> Pause </button>
+		<button class='button' id="btn-reset"> Reset </button>
+	</div>
+	<div class="canvas-container">
+		<canvas id="canvas"> </canvas>
+	</div>
+</div>
+</body>
+
+<script src="js/main.js"> </script>
+</html>

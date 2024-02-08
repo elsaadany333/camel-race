@@ -1,0 +1,49 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex: 1;
+}
+
+.canvas-container {
+    flex: 13;
+}
+
+.top-menu {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+.title {
+    flex: 5;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    flex: 1;
+    margin-right: 2rem;
+    font-size: large;
+    height: 3rem;
+}
+
+
+
+
+
+
+
+
+
